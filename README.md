@@ -48,15 +48,15 @@ python3 generate_csv_file.py --FilePath='./data_files/video1.mp4' --CSVFilePath=
 ``` bash
 python3 standard_least_squares.py
 ```
-### Results
-### For video1:
+### Results:  
+### For video1-
 #### Points
 ![video1.png](./plots/points.png)  
 
 #### Standard Least Squares Method
 ![video1.png](./plots/video1.png) 
 
-### For video2:
+### For video2-
 #### Points
 ![video1](./plots/points2.png)  
 
@@ -77,7 +77,7 @@ and RANSAC.
 python3 curve_fitting.py
 ```
 
-### Results
+### Results:
 #### Eigen Value Representation  
 ![eigen](./plots/eigen_representation.png)  
 
