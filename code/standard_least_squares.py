@@ -4,11 +4,11 @@ import pandas as pd
 import numpy as pb
 import matplotlib.pyplot as plt
 
-data1 = pd.read_csv('./Data_Files/data1.csv')
+data1 = pd.read_csv('../data_files/data1.csv')
 X1 = data1['x'].values
 Y1 = -data1['y'].values
 
-data2 = pd.read_csv('./Data_Files/data2.csv')
+data2 = pd.read_csv('../data_files/data2.csv')
 X2 = data2['x'].values
 Y2 = -data2['y'].values
 
