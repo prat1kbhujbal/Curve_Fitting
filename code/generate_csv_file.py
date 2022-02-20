@@ -46,10 +46,10 @@ def center_coord(filepath):
 # Arguments for video file path and csv file path
 parse = argparse.ArgumentParser()
 parse.add_argument(
-    '--FilePath', default='./Data_Files/video1.mp4',
+    '--FilePath', default='../data_files/video1.mp4',
     help='Video file path')
 parse.add_argument(
-    '--CSVFilePath', default='./Data_Files/data1.csv',
+    '--CSVFilePath', default='../data_files/data1.csv',
     help='File path to save csv file')
 Args = parse.parse_args()
 file_path = Args.FilePath
