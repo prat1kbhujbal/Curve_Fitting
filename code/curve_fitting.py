@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from numpy import linalg as LA
 
 data = pd.read_csv(
-    './data_files/linear_regression_dataset.csv')
+    '../data_files/linear_regression_dataset.csv')
 X = data['age'].values
 Y = data['charges'].values
 
